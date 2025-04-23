@@ -23,6 +23,7 @@ const Navbar = () => {
           
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/20 transition-colors">Главная</Link>
+            <Link to="/workshops" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/20 transition-colors">Мастер-классы</Link>
             <Link to="/principles" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/20 transition-colors">Принципы</Link>
             <Link to="/tools" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/20 transition-colors">Инструменты</Link>
             <Link to="/resources" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/20 transition-colors">Ресурсы</Link>
@@ -41,6 +42,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background border-b border-border/40">
             <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/20 transition-colors">Главная</Link>
+            <Link to="/workshops" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/20 transition-colors">Мастер-классы</Link>
             <Link to="/principles" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/20 transition-colors">Принципы</Link>
             <Link to="/tools" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/20 transition-colors">Инструменты</Link>
             <Link to="/resources" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/20 transition-colors">Ресурсы</Link>
